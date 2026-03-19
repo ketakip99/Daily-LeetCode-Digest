@@ -16,8 +16,8 @@ Behold the premium Next.js subscriber dashboard.
 (Hover over the feature cards to trigger the glassmorphism interactions)
 
 ![Interactive UI Demo](assets/demo.webp)
-*If the animation above doesn't load, here is a static preview:*
-![Hero Preivew](assets/hero_preview.png)
+<!-- *If the animation above doesn't load, here is a static preview:*
+![Hero Preivew](assets/hero_preview.png) -->
 
 ---
 
