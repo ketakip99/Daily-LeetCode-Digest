@@ -87,7 +87,7 @@ python main.py
 
 ## 📬 Example Daily Digest
 
-![Email Digest Example](assets/email.png)
+![Email Digest Example](assets/email.jpg)
 
 **Subject:** Daily LeetCode Practice – 5 Problems with Python Solutions
 
