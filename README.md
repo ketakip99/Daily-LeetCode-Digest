@@ -10,6 +10,17 @@ LeetCode AutoPilot is a high-performance automation engine designed for the disc
 
 ---
 
+## 🎥 Interactive Demo
+
+Behold the premium Next.js subscriber dashboard.
+(Hover over the feature cards to trigger the glassmorphism interactions)
+
+![Interactive UI Demo](assets/demo.webp)
+*If the animation above doesn't load, here is a static preview:*
+![Hero Preivew](assets/hero_preview.png)
+
+---
+
 ## ✨ Why AutoPilot?
 
 Consistency is the ultimate differentiator in technical interviews. But finding the "right" problem every day is a chore. 
@@ -75,6 +86,8 @@ python main.py
 ---
 
 ## 📬 Example Daily Digest
+
+![Email Digest Example](assets/email_preview.png)
 
 **Subject:** Daily LeetCode Practice – 5 Problems with Python Solutions
 
