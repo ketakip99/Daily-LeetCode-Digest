@@ -36,21 +36,6 @@ Consistency is the ultimate differentiator in technical interviews. But finding 
 
 ---
 
-## 🛠️ Architecture
-
-```mermaid
-graph TD
-    A[Scheduler: 8:00 AM] --> B[Fetcher: GraphQL API]
-    B --> C[Manager: Filter & Deduplicate]
-    C --> D[Generator: OpenRouter/Gemini]
-    D -- Fail? --> E[Fallback: GitHub Curated]
-    E --> F[Notifier: SMTP HTML Template]
-    F --> G[Inbox: Daily Digest]
-    G --> H[Record: SQLite History]
-```
-
----
-
 ## ⚡ Quick Start
 
 ### 1. Clone & Install
@@ -123,6 +108,20 @@ Go to your repo **Settings > Secrets and variables > Actions** and add the follo
 
 ### 3. Profit
 The automation is already configured in `.github/workflows/daily_leetcode.yml` to run every day at **08:00 UTC**. You can also trigger it manually from the **Actions** tab in your repository.
+
+---
+## 🛠️ Architecture
+
+```mermaid
+graph TD
+    A[Scheduler: 8:00 AM] --> B[Fetcher: GraphQL API]
+    B --> C[Manager: Filter & Deduplicate]
+    C --> D[Generator: OpenRouter/Gemini]
+    D -- Fail? --> E[Fallback: GitHub Curated]
+    E --> F[Notifier: SMTP HTML Template]
+    F --> G[Inbox: Daily Digest]
+    G --> H[Record: SQLite History]
+```
 
 ---
 
